@@ -1,0 +1,13 @@
+  - name: 'projetportfolio'
+    create: true
+    label: 'Projet de portfolio'
+    folder: 'docs/jekyll_projets/_posts/'
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - label: "Images"
+        name: "img"
+        widget: "image"
+        required: false
+      - { label: 'Content', name: 'body', widget: 'markdown' }
+      - { label: 'Ordre', name: 'ordre', widget: 'number', required: false }
