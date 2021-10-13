@@ -12,6 +12,14 @@
             name: "api"
             widget: object
             fields:
+              - label: "Google Analytics description"
+                name: "googleanalytics_desc"
+                widget: string
+                required: false
+              - label: "Google Analytics token, for example G-XV3QMC5JPH"
+                name: "google_analytics_token"
+                widget: string
+                required: false
               - label: "Mapbox account description"
                 name: "mapbox_desc"
                 widget: string
@@ -59,4 +67,9 @@
                 widget: "string"
               - label: "String in French"
                 name: "fr"
+                required: false
+                widget: "string"
+              - label: "String in English"
+                required: false
+                name: "en"
                 widget: "string"

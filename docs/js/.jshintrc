@@ -1,0 +1,6 @@
+{
+  // Required for ./scripts/lint-js.sh
+  // See https://github.com/dcycle/docker-js-lint
+
+  "esversion" : 6
+}
