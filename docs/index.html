@@ -157,24 +157,13 @@
                     <a class="quick-title" data-type=
                     "page-transition" href="{{ projet.url }}">
                     <div class="q-timeline">
-                      {{ project.title }}<span>01</span>
+                      {{ projet.title }}<span>{{ forloop.index }}</span>
                       <div class="q-cat">
                         Branding
                       </div>
                     </div></a>
                   </li>
                   {% endfor %}
-                  <li class="hide-ball" data-img=
-                  "images/01hero.jpg">
-                    <a class="quick-title" data-type=
-                    "page-transition" href="project01.html">
-                    <div class="q-timeline">
-                      SNEAKERS<span>01</span>
-                      <div class="q-cat">
-                        Branding
-                      </div>
-                    </div></a>
-                  </li>
                   <li class="hide-ball" data-img=
                   "images/02hero.jpg">
                     <a class="quick-title" data-type=
@@ -302,20 +291,23 @@
                     <div id="showcase-slider" class=
                     "swiper-container">
                       <div class="swiper-wrapper">
+                        {% for projet in projets %}
                         <!-- Section Slide -->
                         <div class="swiper-slide" data-title=
-                        "SNEAKERS" data-subtitle="Branding"
-                        data-number="01">
+                        "{{ projet.title }}" data-subtitle="Branding"
+                        data-number="{{ forloop.index }}">
                           <div class="img-mask">
                             <div class="section-image" data-src=
-                            "images/01hero.jpg"></div>
+                            "{{ projet.img }}"></div>
                           </div><a class="title hide-ball"
                           data-type="page-transition" href=
-                          "project01.html">SNEAKERS<span>01</span></a>
+                          "{{ projet.url }}">{{ projet.title }}<span>{{ forloop.index }}</span></a>
                           <div class="subtitle">
                             Branding
                           </div>
-                        </div><!--/Section Slide -->
+                        </div>
+                        <!--/Section Slide -->
+                        {% endfor %}
                         <!-- Section Slide -->
                         <div class="swiper-slide" data-title=
                         "EVEREST" data-subtitle="Design"
