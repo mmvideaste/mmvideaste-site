@@ -1,5 +1,7 @@
-Jekyll or HTML starterkit
+Site MM Vidéaste
 =====
+
+Disponible au [www.mmvideaste.com](https://www.mmvideaste.com).
 
 [![CircleCI](https://circleci.com/gh/dcycle/starterkit-jekyll/tree/master.svg?style=svg)](https://circleci.com/gh/dcycle/starterkit-jekyll/tree/master)
 
