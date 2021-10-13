@@ -6,7 +6,7 @@ api:
   mapbox_desc: Dcycle Account Token, you should use your own here instead as this
     will change
 items:
-  - title: My Cool Website
+  - title: Michel et Michel Vidéaste
     lang: en
     langs:
       - lang: fr
@@ -16,13 +16,3 @@ items:
       - id: home
         label: Home
         href: /jekyll/jekyll.html
-  - title: Mon site web
-    home: /jekyll/fr/
-    lang: fr
-    langs:
-      - lang: en
-        path: /jekyll/jekyll.html
-    menu:
-      - id: home
-        label: Accueil
-        href: /jekyll/fr/
