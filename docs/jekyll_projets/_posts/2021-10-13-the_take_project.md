@@ -1,4 +1,5 @@
 ---
+layout: project
 title: The Take Project
 img: /media/jon-tyson-q5qhots2tfi-unsplash.jpg
 ordre: 10
