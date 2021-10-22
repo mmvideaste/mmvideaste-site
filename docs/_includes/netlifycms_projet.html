@@ -4,15 +4,15 @@
     folder: 'docs/jekyll_projets/_posts/'
     slug: '{{slug}}'
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Titre', name: 'title', widget: 'string' }
       - label: "Images"
         name: "img"
         widget: "image"
         required: false
-      - { label: 'Content', name: 'body', widget: 'markdown' }
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'project' }
+      - { label: 'Contenu', name: 'body', widget: 'markdown' }
+      - { label: 'Mise en page', name: 'layout', widget: 'hidden', default: 'project' }
       - { label: 'Ordre', name: 'ordre', widget: 'number', required: false }
-      - label: 'Path (for example /privacy-policy/)'
+      - label: 'Chemin (par example /projet/x/y/z/)'
         name: 'permalink'
         widget: 'string'
         {% include netlifycms_validate_path.html %}
