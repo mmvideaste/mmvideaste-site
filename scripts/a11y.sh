@@ -12,7 +12,7 @@ fi
 
 source ./config/versioned
 
-T=30
+T=10
 echo ""
 echo "Threshold $T"
 docker run --rm --network "$DOCKERNETWORK" dcycle/pa11y:1 http://"$DOCKERNAME"/index.html -T "$T"

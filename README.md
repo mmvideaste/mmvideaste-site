@@ -3,7 +3,7 @@ Site MM Vidéaste
 
 Disponible au [www.mmvideaste.com](https://www.mmvideaste.com).
 
-[![CircleCI](https://circleci.com/gh/dcycle/starterkit-jekyll/tree/master.svg?style=svg)](https://circleci.com/gh/dcycle/starterkit-jekyll/tree/master)
+[![CircleCI](https://circleci.com/gh/mmvideaste/mmvideaste-site/tree/master.svg?style=svg)](https://circleci.com/gh/mmvideaste/mmvideaste-site/tree/master)
 
 Starterkit for new HTML or Jekyll websites.
 
