@@ -1,6 +1,6 @@
 ---
 title: Bioénergie Haïti
-img: /media/aperc_u_2e0.jpg
+img: /media/aperc_u_2e0.compressed.jpg
 layout: project
 ordre: 3
 permalink: /ecologie/

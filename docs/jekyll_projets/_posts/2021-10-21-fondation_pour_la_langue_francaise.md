@@ -1,6 +1,6 @@
 ---
 title: Fondation pour la langue française
-img: /media/flf.png
+img: /media/flf.png.compressed.jpg
 layout: project
 ordre: 13
 permalink: /fondation_pour_la_langue_francaise/

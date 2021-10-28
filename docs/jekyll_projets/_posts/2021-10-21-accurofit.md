@@ -1,6 +1,6 @@
 ---
 title: Accurofit
-img: /media/accurofit.png
+img: /media/accurofit.png.compressed.jpg
 layout: project
 ordre: 9
 permalink: /fitness/
