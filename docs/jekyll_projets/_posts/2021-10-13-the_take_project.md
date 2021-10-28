@@ -1,6 +1,6 @@
 ---
 title: Intimacy
-img: /media/intimacy.png
+img: /media/intimacy.png.compressed.jpg
 layout: project
 ordre: 10
 permalink: /cybersexualite/

@@ -1,6 +1,6 @@
 ---
 title: Archéo-Québec
-img: /media/arche_o-que_bec.png
+img: /media/arche_o-que_bec.png.compressed.jpg
 layout: project
 ordre: 6
 permalink: /archeo-quebec/
