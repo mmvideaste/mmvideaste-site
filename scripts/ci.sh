@@ -29,9 +29,7 @@ echo "Validating HTML"
 echo ""
 ./scripts/validate-html.sh
 echo ""
-echo "Linting JavaScript"
-echo ""
-./scripts/lint-js.sh
+echo "Not linting JavaScript because we have no custom Javasctipt"
 echo ""
 echo "Destroying the environment"
 echo ""
