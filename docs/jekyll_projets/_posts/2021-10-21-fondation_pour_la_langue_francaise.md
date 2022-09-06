@@ -1,5 +1,5 @@
 ---
-title: Fondation pour la langue française
+title: Fond. pour la langue française
 img: /media/flf.png.compressed.jpg
 layout: project
 ordre: 7
