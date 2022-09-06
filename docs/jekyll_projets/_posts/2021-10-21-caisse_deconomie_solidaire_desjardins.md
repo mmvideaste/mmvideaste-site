@@ -1,5 +1,5 @@
 ---
-title: Caisse d'économie solidaire Desjardins
+title: Caisse d'économie solidaire
 img: /media/maison_ludivine_lachance.png.compressed.jpg
 layout: project
 ordre: 2
